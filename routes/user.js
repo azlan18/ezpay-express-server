@@ -184,4 +184,8 @@ router.post("/google-signin", async (req, res) => {
     }
 });
 
+router.get('/test',(req,res)=>{
+   console.log('Hi');
+});
+
 module.exports = router;
